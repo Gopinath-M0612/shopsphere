@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopSphere</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>ShopSphere</h1>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search products">
+      <select id="category"><option value="">All categories</option></select>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Products</h2>
+      <div id="products" class="grid"></div>
+      <div class="pager">
+        <button id="prev">Previous</button>
+        <span id="page-info"></span>
+        <button id="next">Next</button>
+      </div>
+    </section>
+
+    <aside>
+      <h2>Cart</h2>
+      <ul id="cart"></ul>
+      <p class="total">Total: <strong id="cart-total">₹0.00</strong></p>
+      <input id="email" type="email" placeholder="you@example.com">
+      <button id="checkout" class="primary">Place order</button>
+      <p id="message" role="status"></p>
+
+      <h2>My orders</h2>
+      <ul id="orders"></ul>
+    </aside>
+  </main>
+
+  <footer>
+    <span id="health">checking services…</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "shopsphere-inventory",
+  "version": "1.0.0",
+  "description": "ShopSphere inventory service",
+  "main": "src/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "prom-client": "^15.1.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

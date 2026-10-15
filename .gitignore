@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+# Node
+node_modules/
+# Go
+services/gateway/gateway
+# Local data and secrets
+*.db
+.env
+*.env.local
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
